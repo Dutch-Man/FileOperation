@@ -19,5 +19,8 @@ int main()
 	ShowDLLInfo();
     CFileOperation cFileOpe;
     cFileOpe.ShowMessage();
+    cFileOpe.OpenFile("Test.txt");
+    cFileOpe.WriteFile("HS_Test ...");
+    cFileOpe.CloseFile();
 	return 0;
 }

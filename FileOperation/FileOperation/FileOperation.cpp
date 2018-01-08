@@ -23,3 +23,18 @@ void CFileOperation::ShowMessage()
 {
     cout<<"CFileOperation Class Start to work ..."<<endl;
 }
+
+void CFileOperation::OpenFile(char* cFileName)
+{
+    m_WFile.open(cFileName);
+}
+
+void CFileOperation::WriteFile(char* cVal)
+{
+    m_WFile<<cVal;
+}
+
+void CFileOperation::CloseFile()
+{
+    m_WFile.close();
+}

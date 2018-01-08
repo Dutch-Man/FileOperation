@@ -9,6 +9,7 @@
 
 #include <iostream>
 using namespace std;
+#include<fstream>
 
 void DM_FILE_OPERATION_API ShowDLLInfo();
 
@@ -20,6 +21,14 @@ public:
 
 public:
     void ShowMessage();
+
+public:
+    ofstream m_WFile;
+
+public:
+    void OpenFile(char* cFileName);
+    void CloseFile();
+    void WriteFile(char* cVal);
 };
 
 #endif//__FILE_OPERATION__
