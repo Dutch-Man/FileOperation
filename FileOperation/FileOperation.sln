@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileOperation", "FileOperation\FileOperation.vcxproj", "{6A6EF48B-B2F9-4F5B-9B2C-E8989C5699F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLLTest", "DLLTest\DLLTest.vcxproj", "{CCAAE64F-C2A0-4E46-B364-068CECC6EF76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6A6EF48B-B2F9-4F5B-9B2C-E8989C5699F2} = {6A6EF48B-B2F9-4F5B-9B2C-E8989C5699F2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A6EF48B-B2F9-4F5B-9B2C-E8989C5699F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A6EF48B-B2F9-4F5B-9B2C-E8989C5699F2}.Debug|Win32.Build.0 = Debug|Win32
+		{6A6EF48B-B2F9-4F5B-9B2C-E8989C5699F2}.Release|Win32.ActiveCfg = Release|Win32
+		{6A6EF48B-B2F9-4F5B-9B2C-E8989C5699F2}.Release|Win32.Build.0 = Release|Win32
+		{CCAAE64F-C2A0-4E46-B364-068CECC6EF76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCAAE64F-C2A0-4E46-B364-068CECC6EF76}.Debug|Win32.Build.0 = Debug|Win32
+		{CCAAE64F-C2A0-4E46-B364-068CECC6EF76}.Release|Win32.ActiveCfg = Release|Win32
+		{CCAAE64F-C2A0-4E46-B364-068CECC6EF76}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
